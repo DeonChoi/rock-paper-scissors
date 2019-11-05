@@ -1,0 +1,1 @@
+Simple Rock-Paper-Scissors game created using vanilla JS, CSS, and HTML. Opponent's move is randomly generated and chosen at the instance the player(you) chooses their move. The result of the game is updated and displayed on screen after every move.
