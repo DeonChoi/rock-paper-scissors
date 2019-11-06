@@ -10,8 +10,7 @@ img {
     transition: .75s;
 }
 img:hover {
-    transform: scale(1.5);
-    transform: rotate(360deg);
+    transform: rotate(360deg) scale(1.2);
 }
 img:active {
     transform: translateY(10px) translateX(10px);
