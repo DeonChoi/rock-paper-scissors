@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(22, 22, 22);
+    color: white;
+    font-family: 'Lexend Deca', sans-serif;
+}
+img {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    transition: .75s;
+}
+img:hover {
+    transform: scale(1.5);
+    transform: rotate(360deg);
+}
+img:active {
+    transform: translateY(10px) translateX(10px);
+}
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#result {
+    font-size: 24px;
+}
+#instructions {
+    font-size: 18px;
+}
